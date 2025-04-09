@@ -1,0 +1,65 @@
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.profilePic {
+  margin-top: 150px;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+}
+
+.hero h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 90px;
+  font-weight: 600;
+  color: white;
+}
+
+.hero h1 span {
+  background: linear-gradient(267deg, rgb(22, 46, 56), rgb(193, 215, 224));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.hero-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.hero-connect {
+  padding: 25px 45px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, rgb(22, 46, 56), rgb(61, 121, 145));
+  cursor: pointer;
+}
+
+.hero-resume {
+  padding: 25px 45px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.hero-connect:hover {
+  border: 2px solid white;
+}
+.hero-resume:hover {
+  border-color: rgb(22, 46, 56);
+}
