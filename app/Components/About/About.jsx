@@ -40,7 +40,11 @@ const About = () => {
               blockchain community.
             </p>
           </div>{" "}
-          <div className="about-skills">
+          <div
+            className="about-skills"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
             <div className="about-skill">
               <p>HTML & CSS </p>
               <hr style={{ width: "50%" }} />

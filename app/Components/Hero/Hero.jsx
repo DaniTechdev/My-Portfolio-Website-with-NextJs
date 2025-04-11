@@ -24,10 +24,10 @@ const Hero = () => {
       <h1>
         <span>I'm Nneji Tochi, Natochi, </span>Blockchain developer from Nigeria{" "}
       </h1>
-      <h1>
+      <h2>
         <span>A {""}</span>
         {text}
-      </h1>
+      </h2>
       <p data-aos="fade-up" data-aos-duration="2000">
         I am a blockchain developer, with over 7 years blockchain knowlegdge and
         over 3 years technical experience in blockchain development, who is

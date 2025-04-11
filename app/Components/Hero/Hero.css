@@ -29,6 +29,13 @@
   -webkit-text-fill-color: transparent;
 }
 
+.hero h2 {
+  background: linear-gradient(267deg, rgb(22, 46, 56), rgb(193, 215, 224));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .hero p {
   width: 50%;
   text-align: center;
