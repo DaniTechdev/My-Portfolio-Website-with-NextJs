@@ -21,7 +21,11 @@ const About = () => {
             alt="profile imaga"
           />
         </div>
-        <div className="about-right">
+        <div
+          className="about-right"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <div className="about-para">
             <p>
               As a blockchain developer with over 7 years of blockchain
