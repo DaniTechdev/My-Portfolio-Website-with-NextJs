@@ -5,7 +5,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id="home" className="hero">
       <img className="profilePic" src="/myprofile.jpg" alt=" profile" />
       <h1>
         <span>I'm Nneji Tochi, Natochi, </span>Blockchain developer from Nigeria{" "}
@@ -16,7 +16,9 @@ const Hero = () => {
         passionation in building scalable blockchain applications.
       </p>
       <div className="hero-action">
-        <div className="hero-connect">Connect with me</div>
+        <div className="hero-connect">
+          <a href="#contact">Connect with me</a>
+        </div>
         <div className="hero-resume">My Resume</div>
       </div>
     </div>
